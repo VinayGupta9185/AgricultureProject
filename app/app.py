@@ -19,6 +19,7 @@ from utils.model import ResNet9
 
 # Loading plant disease classification model
 
+
 disease_classes = ['Apple___Apple_scab',
                    'Apple___Black_rot',
                    'Apple___Cedar_apple_rust',
@@ -117,6 +118,7 @@ def predict_image(img, model=disease_model):
     # Get predictions from model
     yb = model(img_u)
     # Pick index with highest probability
+    
     _, preds = torch.max(yb, dim=1)
     prediction = disease_classes[preds[0].item()]
     # Retrieve the class label
@@ -128,6 +130,11 @@ def predict_image(img, model=disease_model):
 
 app = Flask(__name__)
 
+# if __name__ == "__main__":
+#     app.run(debug=True)
+# if __name__ == "__main__":
+#     from waitress import serve
+#     serve(app, host="0.0.0.0", port=8080)
 # render home page
 
 
@@ -184,7 +191,6 @@ def crop_prediction():
             data = np.array([[N, P, K, temperature, humidity, ph, rainfall]])
             my_prediction = crop_recommendation_model.predict(data)
             final_prediction = my_prediction[0]
-
             return render_template('crop-result.html', prediction=final_prediction, title=title)
 
         else:
