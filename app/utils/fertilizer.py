@@ -2,7 +2,7 @@ fertilizer_dic = {
         'NHigh': """The N value of soil is high and might give rise to weeds.
         <br/> Please consider the following suggestions:
 
-        <br/><br/> 1. <i> Manure </i> – adding manure is one of the simplest ways to amend your soil with nitrogen. Be careful as there are various types of manures with varying degrees of nitrogen.
+        <br/><br/> 1. <i><b> Manure</b> </i> – adding manure is one of the simplest ways to amend your soil with nitrogen. Be careful as there are various types of manures with varying degrees of nitrogen.
 
         <br/> 2. <i>Coffee grinds </i> – use your morning addiction to feed your gardening habit! Coffee grinds are considered a green compost material which is rich in nitrogen. Once the grounds break down, your soil will be fed with delicious, delicious nitrogen. An added benefit to including coffee grounds to your soil is while it will compost, it will also help provide increased drainage to your soil.
 
@@ -12,13 +12,13 @@ fertilizer_dic = {
 
         <br/>5. <i>Use mulch (wet grass) while growing crops</i> - Mulch can also include sawdust and scrap soft woods""",
 
-        'Nlow': """The N value of your soil is low.
+        'Nlow': """<b>The N value of your soil is low.</b>
         <br/> Please consider the following suggestions:
         <br/><br/> 1. <i>Add sawdust or fine woodchips to your soil</i> – the carbon in the sawdust/woodchips love nitrogen and will help absorb and soak up and excess nitrogen.
 
         <br/>2. <i>Plant heavy nitrogen feeding plants</i> – tomatoes, corn, broccoli, cabbage and spinach are examples of plants that thrive off nitrogen and will suck the nitrogen dry.
 
-        <br/>3. <i>Water</i> – soaking your soil with water will help leach the nitrogen deeper into your soil, effectively leaving less for your plants to use.
+        <br/>3. <i><b>Water</b></i> – soaking your soil with water will help leach the nitrogen deeper into your soil, effectively leaving less for your plants to use.
 
         <br/>4. <i>Sugar</i> – In limited studies, it was shown that adding sugar to your soil can help potentially reduce the amount of nitrogen is your soil. Sugar is partially composed of carbon, an element which attracts and soaks up the nitrogen in the soil. This is similar concept to adding sawdust/woodchips which are high in carbon content.
 
@@ -48,7 +48,7 @@ fertilizer_dic = {
 
         <br/><br/>1. <i>Bone meal</i> – a fast acting source that is made from ground animal bones which is rich in phosphorous.
 
-        <br/>2. <i>Rock phosphate</i> – a slower acting source where the soil needs to convert the rock phosphate into phosphorous that the plants can use.
+        <br/>2. <i><b>Rock phosphate</b></i> – a slower acting source where the soil needs to convert the rock phosphate into phosphorous that the plants can use.
 
         <br/>3. <i>Phosphorus Fertilizers</i> – applying a fertilizer with a high phosphorous content in the NPK ratio (example: 10-20-10, 20 being phosphorous percentage).
 
@@ -67,7 +67,7 @@ fertilizer_dic = {
         'KHigh': """The K value of your soil is high</b>.
         <br/> Please consider the following suggestions:
 
-        <br/><br/>1. <i>Loosen the soil</i> deeply with a shovel, and water thoroughly to dissolve water-soluble potassium. Allow the soil to fully dry, and repeat digging and watering the soil two or three more times.
+        <br/><br/>1. <i><b>Loosen the soil</b></i> deeply with a shovel, and water thoroughly to dissolve water-soluble potassium. Allow the soil to fully dry, and repeat digging and watering the soil two or three more times.
 
         <br/>2. <i>Sift through the soil</i>, and remove as many rocks as possible, using a soil sifter. Minerals occurring in rocks such as mica and feldspar slowly release potassium into the soil slowly through weathering.
 
