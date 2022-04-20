@@ -4,32 +4,40 @@
 <style>
   html body {
     background-color: rgb(206, 206, 228);
+    background-image: url(https://images.pexels.com/photos/6130145/pexels-photo-6130145.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
   }
 </style>
 <br /><br />
-  <h2 style="text-align: center; margin: 0px; color: black">
-    <b>Find out which disease has been caught by your plant</b>
-  </h2>
-  <br />
-  <br>
+<h2 style="text-align: center; margin: 0px; color: white">
+  <b>Find out which disease has been caught by your plant</b>
+</h2>
+<br />
+<br>
 
 <div style="
     width: 350px;
-    height: 50rem;
+    height: 35rem;
     margin: 0px auto;
-    color: black;
+    color: white;
     border-radius: 25px;
     padding: 10px 10px;
     font-weight: bold;
+    border: 3px solid ;
+    border-color: white;
+    background-color: black;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    margin-bottom: 40px;
   ">
 
-  
+
 
 
   <form class="form-signin" method=post enctype=multipart/form-data>
 
     <h2 class="h4 mb-3 font-weight-normal"><b>Please Upload The Image</b></h2>
-    <input type="file" name="file" class="form-control-file" id="inputfile" onchange="preview_image(event)" style="font-weight: bold;">
+    <input type="file" name="file" class="form-control-file" id="inputfile" onchange="preview_image(event)"
+      style="font-weight: bold;">
     <br>
     <br>
     <img id="output-image" class="rounded mx-auto d-block" />

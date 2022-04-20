@@ -4,35 +4,17 @@
 
 
 
-
-<!-- <div class="container py-2 mx-auto my-50 h-100 " style="margin: 9rem; background-color: aqua;"> -->
-<!-- <div class="row">
-    <div class="col-sm py-2 py-md-3">
-      <div class="card card-body fertilizer_result" style="justify-content: center; background-color: yellowgreen;">
-        <p class="text-center" style="color: black; font-size: 20px;">{{ recommendation }}</p>
+<div height=100% width=100%
+  style="background-image: url(https://images.pexels.com/photos/461960/pexels-photo-461960.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);">
+  <div class="container  mx-auto  h-10 " style="margin: 0rem;">
+    <div class="row">
+      <div class="col-sm py-2 py-md-3">
+        <div class="card card-body"
+          style="justify-content: center; background-color:white; box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset; margin-top: 5%; margin-bottom: 5%;">
+          <p class="text-center" style="color: black; font-size: 22px;">{{ recommendation }}</p>
+        </div>
       </div>
     </div>
   </div>
-</div> -->
-<div class="card mb-3">
-  <img src="{{ url_for('static', filename='images/crop_background.jpg') }}" height="300px" alt="He">
-
-  <div class="card-body">
-    <h5 class="card-title">{{ recommendation }}</h5>
-    <p class="card-text">Happy Farming</p>
-  </div>
 </div>
-<!-- <div class="card">
-  <div class="card-body">
-    
-  </div>
-</div> -->
-<!-- <div class="card bg-dark text-white">
-  <img src="{{ url_for('static', filename='images/crop_background.jpg') }}" alt="He">
-  <div class="card-img-overlay">
-    <h5 class="card-title">{{ recommendation }}</h5>
-    <p class="card-text">
-    <p class="card-text">Happy Farming</p>
-  </div>
-</div> -->
 {% endblock %}

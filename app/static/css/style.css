@@ -8,7 +8,9 @@ section {
   flex-direction: column;
   align-items: center;
 }
-
+body {
+  background-color: #c1eea6;
+}
 section:nth-child(2n) {
   background-color: #9e9b9b29;
 }
@@ -44,7 +46,9 @@ section:nth-child(2n + 1) {
   height: 2.2rem;
   background-color: lightgrey;
   border-radius: 1rem;
-  box-shadow: 1px 1px 2px 1px #b9b9b9 inset;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
   margin: 25px;
   overflow: hidden;
 }
@@ -110,7 +114,14 @@ section:nth-child(2n + 1) {
   width: 100%;
   justify-content: center;
   text-align: center;
-  margin-top: 30px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.crop_result_outut > div {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.crop_result_outut > div > div {
+  background-color: #c1eea6;
 }
 .fertilizer_result {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
