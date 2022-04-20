@@ -1,3 +1,7 @@
+.navbar_color {
+  background-color: #000;
+}
+
 /*Skills Section*/
 section {
   display: flex;

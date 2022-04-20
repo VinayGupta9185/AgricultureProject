@@ -5,14 +5,34 @@
 
 
 
-<div class="container py-2 mx-auto my-50 h-10 "
-  style="margin: 9rem; background-image: url(../static/images/farm_background.jpg);">
-  <div class="row">
+<!-- <div class="container py-2 mx-auto my-50 h-100 " style="margin: 9rem; background-color: aqua;"> -->
+<!-- <div class="row">
     <div class="col-sm py-2 py-md-3">
-      <div class="card card-body fertilizer_result" style="justify-content: center;">
+      <div class="card card-body fertilizer_result" style="justify-content: center; background-color: yellowgreen;">
         <p class="text-center" style="color: black; font-size: 20px;">{{ recommendation }}</p>
       </div>
     </div>
   </div>
+</div> -->
+<div class="card mb-3">
+  <img src="{{ url_for('static', filename='images/crop_background.jpg') }}" height="300px" alt="He">
+
+  <div class="card-body">
+    <h5 class="card-title">{{ recommendation }}</h5>
+    <p class="card-text">Happy Farming</p>
+  </div>
 </div>
+<!-- <div class="card">
+  <div class="card-body">
+    
+  </div>
+</div> -->
+<!-- <div class="card bg-dark text-white">
+  <img src="{{ url_for('static', filename='images/crop_background.jpg') }}" alt="He">
+  <div class="card-img-overlay">
+    <h5 class="card-title">{{ recommendation }}</h5>
+    <p class="card-text">
+    <p class="card-text">Happy Farming</p>
+  </div>
+</div> -->
 {% endblock %}
